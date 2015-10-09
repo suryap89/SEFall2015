@@ -1,0 +1,9 @@
+Project Summary:
+
+E-Health care system provides great opportunity for users to get prescription from their preferred choice of doctors from their 
+list of selected hospitals.Users can even order medicines and can get them delivered at their door step from prominent pharmacies 
+in their locality.
+Planning,Requirement Analysis and design are completed and documented successfully from September 9th,2015 to October 4th,2015.
+Currently development of various GUI's in our project like Login page,General Health tips information,About us,Upload symptoms page,Get prescription,
+View health records page,Payment details page etc is in progress.Started on 6th October 2015, expected to be complete by 15th october,2015.Milestones coming up are establishing database connectivity, developing servlets,database tables design,unit testing,integration testing and deployment.Our entire E-Health care system is expected to be working with full potential by November 6th,2015.
+
