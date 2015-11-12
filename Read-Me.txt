@@ -1,6 +1,0 @@
-The project ‘E-Health Care’ from team ‘Ultron’.
-
-Directory Structure
-1. Source Code
-2. Project Report
-3. Minutes of Meeting
