@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>CarPooling</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  
+
+  <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>com.Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>AddHospital</servlet-name>
+    <servlet-class>com.AddHospital</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddHospital</servlet-name>
+    <url-pattern>/AddHospital</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>HospitalLogin</servlet-name>
+    <servlet-class>com.HospitalLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HospitalLogin</servlet-name>
+    <url-pattern>/HospitalLogin</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>AddDoctor</servlet-name>
+    <servlet-class>com.AddDoctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDoctor</servlet-name>
+    <url-pattern>/AddDoctor</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>DoctorLogin</servlet-name>
+    <servlet-class>com.DoctorLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoctorLogin</servlet-name>
+    <url-pattern>/DoctorLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>com.AddUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/AddUser</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>OtherLogin</servlet-name>
+    <servlet-class>com.OtherLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OtherLogin</servlet-name>
+    <url-pattern>/OtherLogin</url-pattern>
+  </servlet-mapping>
+
+  
+    <servlet>
+    <servlet-name>ApprovedDoctor</servlet-name>
+    <servlet-class>com.ApprovedDoctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApprovedDoctor</servlet-name>
+    <url-pattern>/ApprovedDoctor</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>ApprovedHospital</servlet-name>
+    <servlet-class>com.ApprovedHospital</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApprovedHospital</servlet-name>
+    <url-pattern>/ApprovedHospital</url-pattern>
+  </servlet-mapping>
+ <servlet>
+    <servlet-name>AddEvent</servlet-name>
+    <servlet-class>com.AddEvent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEvent</servlet-name>
+    <url-pattern>/AddEvent</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteDoctor</servlet-name>
+    <servlet-class>com.DeleteDoctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteDoctor</servlet-name>
+    <url-pattern>/DeleteDoctor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteHospital</servlet-name>
+    <servlet-class>com.DeleteHospital</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteHospital</servlet-name>
+    <url-pattern>/DeleteHospital</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>RegisterPrescription</servlet-name>
+    <servlet-class>com.RegisterPrescription</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterPrescription</servlet-name>
+    <url-pattern>/RegisterPrescription</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>MemberPrescription</servlet-name>
+    <servlet-class>com.MemberPrescription</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberPrescription</servlet-name>
+    <url-pattern>/MemberPrescription</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>SendPrescription</servlet-name>
+    <servlet-class>com.SendPrescription</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendPrescription</servlet-name>
+    <url-pattern>/SendPrescription</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>HomeDelivery</servlet-name>
+    <servlet-class>com.HomeDelivery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeDelivery</servlet-name>
+    <url-pattern>/HomeDelivery</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>Delivered</servlet-name>
+    <servlet-class>com.Delivered</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delivered</servlet-name>
+    <url-pattern>/Delivered</url-pattern>
+  </servlet-mapping>
+
+
+  </web-app>
